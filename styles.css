@@ -81,22 +81,34 @@ div > i{
 }
 
 .input_container_location, .input_container_search{
-    padding: 5px;
+    padding: 5px; 
     border: none;
     outline: none;
-    float: right;
 }
+
+.location-container, .search-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 
 .input_container_location{
     width: 35%;
-    border-right: 2px solid #e0e0e0;
-    
 }
+
 
 .input_container_search{
     width: 65%;
-    
+
 }
+
+.input_container_border{
+    width: 0rem;
+    height: 2rem;
+    border: 0.05rem solid rgb(207, 207, 207);
+}
+    
 
 @media screen and (max-width :600px){
     .nav__menu_container .user_icon{
@@ -490,7 +502,7 @@ div > i{
 
 @media screen and(max-width:900px){
     .navigation_container{
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns:repeat(3,1fr);
     } 
 }
 
