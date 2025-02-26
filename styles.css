@@ -500,21 +500,21 @@ div > i{
     padding-top: 1.5rem;
 }
 
-@media screen and(max-width:900px){
+@media screen and (max-width:900px){
     .navigation_container{
         grid-template-columns:repeat(3,1fr);
     } 
 }
 
 
-@media screen and(max-width:500px){
+@media screen and (max-width:500px){
     .navigation_container{
         grid-template-columns: repeat(2,1fr);
     } 
 }
 
 
-@media screen and(max-width:320px){
+@media screen and (max-width:320px){
     .navigation_container{
         grid-template-columns: repeat(1,1fr);
     } 
