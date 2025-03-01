@@ -127,6 +127,7 @@ div > i {
     flex-direction: column;
     background-color: transparent;
     width: 100%;
+    padding-top: 80px;
   }
 
   .hero__section_input_container {
