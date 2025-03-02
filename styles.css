@@ -9,8 +9,9 @@
   background: url(images/heroSectionBackground.png);
   background-size: cover;
   background-position: center;
-  min-height: 60vh;
+  min-height: 70vh;
   color: white;
+  background-size: 110%;
 }
 
 div > i {
@@ -28,6 +29,14 @@ div > i {
 .navbar a {
   color: white;
   text-decoration: none;
+  padding: 15px;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.navbar > a {
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .nav__menu_container {
@@ -51,24 +60,25 @@ div > i {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
   height: calc(60vh-65px);
   margin-top: 0;
+  padding-top: 30px;
 }
 
 .hero__section_logo {
-  width: 200px;
-  height: 40px;
-}
-
-.hero__section_title {
-  text-align: center;
-  font-size: 30px;
-  font-weight: 350;
+  width: 280px;
+  height: 60px;
 }
 
 .fa-user {
   color: coral;
+}
+
+.hero__section_title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 380;
 }
 
 .hero__section_input_container {
@@ -81,7 +91,8 @@ div > i {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   max-width: 800px;
   margin: auto;
-  width: 60%;
+  width: 61%;
+  height: 55px;
 }
 
 .input_container_location,
@@ -96,12 +107,21 @@ div > i {
 .search-container {
   display: flex;
   align-items: center;
-  gap: 10px;
   background: #fff;
   padding: 12px;
   border-radius: 10px;
   border: none;
-  flex: 1;
+}
+
+.location-container {
+  gap: 5px;
+  flex: 0.3;
+  min-width: 120px;
+}
+
+.search-container {
+  gap: 10px;
+  flex: 0.7;
 }
 
 .input_container_border {
@@ -157,6 +177,27 @@ div > i {
   .hero__section_title {
     font-size: 18px;
     width: 95%;
+  }
+
+  .we__offer_card {
+    width: 45%;
+    max-height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .we__offer_card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .we__offer_card h2,
+  .we__offer_card p {
+    margin: 5px 0;
+    text-align: center;
   }
 }
 
